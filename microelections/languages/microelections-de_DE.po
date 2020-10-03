@@ -1,0 +1,128 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: microelections\n"
+"POT-Creation-Date: 2020-11-22 14:37+0100\n"
+"PO-Revision-Date: 2020-11-22 14:38+0100\n"
+"Last-Translator: \n"
+"Language-Team: Stefan Schramm\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: ;__;_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/entity/ballot.php:44
+msgid "It's not possible to abstain and vote at the same time."
+msgstr "Es ist nicht möglich sich zu enthalten und gleichzeitig abszustimmen."
+
+#: includes/entity/ballot.php:48
+msgid "Invalid number of votes"
+msgstr "Ungültige Anzahl an Stimmen"
+
+#: includes/views/create.inc.php:11
+msgid "Create new election"
+msgstr "Neue Wahl erstellen"
+
+#: includes/views/create.inc.php:15
+msgid "Title:"
+msgstr "Titel:"
+
+#: includes/views/create.inc.php:19
+msgid "Candidates (one entry per line):"
+msgstr "Kandidierende (ein Eintrag pro Zeile):"
+
+#: includes/views/create.inc.php:23
+msgid "Maximum number of votes per ballot:"
+msgstr "Maximale Stimmenanzahl pro Wahlzettel:"
+
+#: includes/views/create.inc.php:28
+msgid "allow abstentions"
+msgstr "Enthaltungen erlauben"
+
+#: includes/views/create.inc.php:31
+msgid "Create election"
+msgstr "Wahl erstellen"
+
+#: includes/views/created.inc.php:17
+#, php-format
+msgid "Election \"%s\" created"
+msgstr "Wahl %s erstellt"
+
+#: includes/views/created.inc.php:19
+msgid "Participation link:"
+msgstr "Teilnahmelink:"
+
+#: includes/views/created.inc.php:23
+msgid "Results link:"
+msgstr "Wahlergebnislink:"
+
+#: includes/views/invalid.inc.php:11
+msgid "Invalid request"
+msgstr "Ungültige Anfrage"
+
+#: includes/views/not_found.inc.php:11
+msgid "The election was not found"
+msgstr "Die Wahl wurde nicht gefunden"
+
+#: includes/views/participate.inc.php:15 includes/views/results.inc.php:19
+#, php-format
+msgid "Election \"%s\""
+msgstr "Wahl \"%s\""
+
+#: includes/views/participate.inc.php:18
+msgid "Error:"
+msgstr "Fehler:"
+
+#: includes/views/participate.inc.php:22
+#, php-format
+msgid "You can vote for up to %s candidates/options."
+msgstr "Es kann für bis zu %s Kandidierende/Optionen gestimmt werden."
+
+#: includes/views/participate.inc.php:43 includes/views/results.inc.php:46
+#: includes/views/results.inc.php:61 includes/views/results.inc.php:62
+msgid "Abstention"
+msgstr "Enthaltung"
+
+#: includes/views/participate.inc.php:47
+msgid "Cast ballot"
+msgstr "Stimmzettel abgeben"
+
+#: includes/views/participated.inc.php:15
+msgid "Ballot casted!"
+msgstr "Stimmzettel abgegbeben!"
+
+#: includes/views/participated.inc.php:16
+#, php-format
+msgid "Your ballot for the election \"%s\" has been casted."
+msgstr "Ihr Stimmzettel für die Wahl \"%s\" wurde abgegeben."
+
+#: includes/views/participated.inc.php:17
+msgid "Random ballot identification code:"
+msgstr "Zufälliger Stimmzettel-Identifikationscode:"
+
+#: includes/views/results.inc.php:22
+#, php-format
+msgid "Casted ballots: %s."
+msgstr "Abgegebene Stimmzettel: %s."
+
+#: includes/views/results.inc.php:24
+#, php-format
+msgid "Casted ballots: %s, including %s abstentions."
+msgstr "Abgegebene Stimmzettel: %s, davon %s Enthaltungen."
+
+#: includes/views/results.inc.php:29
+msgid "Candidate/Option"
+msgstr "Kandidat*in/Option"
+
+#: includes/views/results.inc.php:30
+msgid "Votes"
+msgstr "Stimmen"
+
+#: includes/views/results.inc.php:31
+msgid "Ballot"
+msgstr "Stimmzettel"
